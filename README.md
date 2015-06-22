@@ -7,4 +7,5 @@ Run npm link from daily-pragmatic-tip directory.
 To run command:
 
 pptip - Randomly prints a tip
+
 pptip n - Prints tip #n (n <= 70)
