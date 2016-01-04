@@ -1,8 +1,9 @@
 #! /usr/bin/env node
 var fs = require('fs');
+var path = require('path');
 var args = process.argv.slice(2);
 
-var tips = fs.readFileSync('./pragmaticprogrammer.txt');
+var tips = fs.readFileSync(path.join(__dirname, 'pragmaticprogrammer.txt'));
 var tipList = tips.toString().split('\n');
 
 try {
